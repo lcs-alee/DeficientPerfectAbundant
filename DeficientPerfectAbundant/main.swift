@@ -31,9 +31,7 @@ while 1 == 1 {
     if intInput < 1 || intInput > 32500 {
         continue
     }
-    
-    // Once it goes through all the tests, it puts the number into a variable and breaks the process
-    givenInteger = intInput
+
     break
 }
 
@@ -48,7 +46,7 @@ for i in 2...numbers{
 }
 
 // comparing the total of the divisors to the number to determine what kind of number it is.
-if totalDivisor < numbers {
+if Divisors < numbers {
     print("\(numbers) is a deficient")
 } else if Divisors > numbers{
     print("\(numbers) is an abundant")
